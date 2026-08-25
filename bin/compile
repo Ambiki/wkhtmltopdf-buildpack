@@ -96,3 +96,4 @@ if [ "$(head -c 4 "$TMP_PATH/smoke.pdf")" != "%PDF" ]; then
   exit 1
 fi
 rm -f "$TMP_PATH/smoke.html" "$TMP_PATH/smoke.pdf"
+echo "       smoke test passed: rendered a valid PDF"
